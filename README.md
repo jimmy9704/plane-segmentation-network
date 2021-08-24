@@ -43,3 +43,5 @@ valid(pointnet, dataset, save_num=99,iteration=5)
 
 
 Pre-trained checkpoints can be loaded by setting 'save_num' to 99.
+
+Results are saved as '''.txt''' files. Each file contains a N x 6 matrix, where N is the number of points in a scene. 6 is the number of features per point. The features are XYZRGB. Each column is separated by ';'.
