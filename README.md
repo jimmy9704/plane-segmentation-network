@@ -18,7 +18,7 @@ The PointNet code is from "https://github.com/charlesq34/pointnet" and "https://
 
 We used Virtual KITTI Dataset from <a href="https://github.com/VisualComputingInstitute/vkitti3D-dataset" target="_blank">here</a>. 
 
-We filtered the dataset using voxel down sampling.
+We used voxel downsampling to filter the dataset and extract man-made structures such as roads and buildings.
 
 ## Installation
 ```
