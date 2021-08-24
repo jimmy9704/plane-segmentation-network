@@ -3,7 +3,7 @@
 ![network](./images/HKPS.png)
 
 ## Results
-![results](./images/results.png)
+![results](./images/results.jpg)
 
 ## Requirements
 * Python 3.8
