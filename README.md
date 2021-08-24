@@ -8,6 +8,8 @@
 ## Requirements
 * Python 3.8
 * Pytorch 1.2
+* sklearn
+* open3d
 
 ## Installation
 ```
