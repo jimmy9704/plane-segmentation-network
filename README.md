@@ -8,7 +8,7 @@
 ## Requirements
 * Python 3.8
 * Pytorch 1.2
-* sklearn
+* scikit-learn 0.24.2
 * Open3d 0.13.0
 
 ## Installation
