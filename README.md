@@ -23,8 +23,14 @@ you can use the notebook HKPS.ipynb to train and evaluate HKPS(Hybrid K-means Pl
 train(pointnet, dataset,train_loss, epochs=100,make_label=False, save=True)
 ```
 you can change 'max_k' and 'iteration'
+
+
 'max_k' is the maximum number that PointNet will estimate
+
+
 'iteration' is the number of Hybrid-Kmeans iterations
+
+
 'iteration' can be reduced to reduce time consumption but it might cause unstable results
 
 ## Evaluation
