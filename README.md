@@ -11,7 +11,7 @@
 * scikit-learn 0.24.2
 * Open3d 0.13.0
 
-The PointNet code is from <a href="https://github.com/charlesq34/pointnet" target="_blank">PointNet GitHub Repo<a> and <a href="https://github.com/nikitakaraevv/pointnet" target="_blank">PointNet GitHub Repo<a> 
+The PointNet code is from "https://github.com/charlesq34/pointnet" and <a href="https://github.com/nikitakaraevv/pointnet" target="_blank">PointNet GitHub Repo<a> 
 
 ## Installation
 ```
