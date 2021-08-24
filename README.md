@@ -1,1 +1,24 @@
 # Clustering Based Plane Segmentation Network for Urban Scene Modeling
+## Network Architecture
+![network](./images/HKPS.png)
+
+## Requirements
+* Python 3.8
+* Pytorch 1.2
+
+## Installation
+```
+git clone https://github.com/khuhm/deep-kidney-cancer.git
+cd plane-segmentation-network/
+```
+
+## Training
+```
+python train.py
+```
+
+## Evaluation
+```
+python eval.py
+```
+
