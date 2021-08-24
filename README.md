@@ -8,7 +8,7 @@
 
 ## Installation
 ```
-git clone https://github.com/khuhm/deep-kidney-cancer.git
+git clone https://github.com/jimmy9704/plane-segmentation-network.git
 cd plane-segmentation-network/
 ```
 
