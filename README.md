@@ -1,4 +1,7 @@
 # Clustering Based Plane Segmentation Network for Urban Scene Modeling
+
+The PointNet code is from "https://github.com/charlesq34/pointnet" and "https://github.com/nikitakaraevv/pointnet"
+
 ## Network Architecture
 ![network](./images/HKPS.png)
 
@@ -11,7 +14,12 @@
 * scikit-learn 0.24.2
 * Open3d 0.13.0
 
-The PointNet code is from "https://github.com/charlesq34/pointnet" and "https://github.com/nikitakaraevv/pointnet"
+## Dataset
+
+We used Virtual KITTI Dataset from <a href="https://github.com/VisualComputingInstitute/vkitti3D-dataset" target="_blank">here</a>. 
+
+We filtered the dataset using voxel down sampling.
+
 ## Installation
 ```
 git clone https://github.com/jimmy9704/plane-segmentation-network.git
