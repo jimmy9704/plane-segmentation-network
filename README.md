@@ -9,7 +9,7 @@
 * Python 3.8
 * Pytorch 1.2
 * sklearn
-* open3d 0.13.0
+* Open3d 0.13.0
 
 ## Installation
 ```
