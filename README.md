@@ -2,6 +2,9 @@
 ## Network Architecture
 ![network](./images/HKPS.png)
 
+## Results
+![results](./images/results.png)
+
 ## Requirements
 * Python 3.8
 * Pytorch 1.2
