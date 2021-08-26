@@ -34,21 +34,21 @@ you can use the notebook HKPS.ipynb to train and valid HKPS(Hybrid K-means Plane
 train(pointnet, dataset,train_loss, epochs=100,make_label=False, save=True)
 make_labels(dataset,max_k=15,iteration=10)
 ```
-You can create a label for training PointNet by setting the 'make_label' option to 'True'.
+You can create a label for training PointNet by setting the ```make_label``` option to 'True'.
 
-You can change 'max_k' and 'iteration'.
+You can change ```max_k``` and ```iteration```.
 
-'max_k' is the maximum number that PointNet will estimate
+```max_k``` is the maximum number that PointNet will estimate
 
-'iteration' is the number of Hybrid-Kmeans iterations
+```iteration``` is the number of Hybrid-Kmeans iterations
 
-'iteration' can be reduced to reduce time consumption but it might cause unstable results.
+```iteration``` can be reduced to reduce time consumption but it might cause unstable results.
 
 ## Validation
 ```
 valid(pointnet, dataset, save_num=99,iteration=5)
 ```
-'save_num' is the check point to load for PointNet.
+```save_num``` is the check point to load for PointNet.
 
 
 Pre-trained checkpoints can be loaded by setting 'save_num' to 99.
