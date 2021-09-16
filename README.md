@@ -34,7 +34,7 @@ Run the following command to start training
 ```
 python train.py 
 ```
-explane about options
+Description of options
 ```
 train(pointnet, dataset,train_loss, epochs=100,make_label=False, save=True)
 make_labels(dataset,max_k=15,iteration=10)
@@ -54,7 +54,7 @@ Run the following command to start test
 ```
 python test.py
 ```
-explane about options
+Description of options
 ```
 valid(pointnet, dataset, save_num=99,iteration=5)
 ```
