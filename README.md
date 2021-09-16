@@ -30,6 +30,10 @@ cd plane-segmentation-network/
 you can use the notebook HKPS.ipynb to train and valid HKPS(Hybrid K-means Plane Segmentation Network)
  
 ## Training
+start training
+```
+python train.py 
+```
 ```
 train(pointnet, dataset,train_loss, epochs=100,make_label=False, save=True)
 make_labels(dataset,max_k=15,iteration=10)
@@ -44,7 +48,12 @@ You can change ```max_k``` and ```iteration```.
 
 ```iteration``` can be reduced to reduce time consumption but it might cause unstable results.
 
-## Validation
+## test
+Run the following command to start test
+```
+python test.py
+```
+
 ```
 valid(pointnet, dataset, save_num=99,iteration=5)
 ```
