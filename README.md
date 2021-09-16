@@ -30,7 +30,7 @@ cd plane-segmentation-network/
 you can use the notebook HKPS.ipynb to train and valid HKPS(Hybrid K-means Plane Segmentation Network)
  
 ## Training
-start training
+Run the following command to start training
 ```
 python train.py 
 ```
@@ -49,7 +49,7 @@ You can change ```max_k``` and ```iteration```.
 
 ```iteration``` can be reduced to reduce time consumption but it might cause unstable results.
 
-## test
+## Test
 Run the following command to start test
 ```
 python test.py
