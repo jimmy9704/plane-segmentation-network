@@ -1,7 +1,5 @@
 # Clustering Based Plane Segmentation Network for Urban Scene Modeling
 
-The PointNet code is from "https://github.com/charlesq34/pointnet" and "https://github.com/nikitakaraevv/pointnet"
-
 ## Network Architecture
 ![network](./images/HKPS.png)
 
@@ -64,3 +62,6 @@ valid(pointnet, dataset, save_num=99,iteration=5)
 Pre-trained checkpoints can be loaded by setting 'save_num' to 99.
 
 Results are saved as ```.txt``` files in ```./result```. Each file contains a ```N x 6``` matrix, where N is the number of points in a scene and 6 is the number of features per point. The features are XYZRGB. Each column is separated by ```;```.
+
+## reference
+The PointNet code is from "https://github.com/charlesq34/pointnet" and "https://github.com/nikitakaraevv/pointnet"
