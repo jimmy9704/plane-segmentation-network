@@ -18,6 +18,8 @@ We used Virtual KITTI Dataset from <a href="https://github.com/VisualComputingIn
 
 We used voxel downsampling to filter the dataset and extract man-made structures such as roads and buildings.
 
+Sample datasets are stored in the dataset folder
+
 ## Installation
 ```
 git clone https://github.com/jimmy9704/plane-segmentation-network.git
