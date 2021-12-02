@@ -1,4 +1,4 @@
-# Clustering Based Plane Segmentation Network for Urban Scene Modeling
+# Clustering-Based Plane Segmentation Neural Network for Urban Scene Modeling
 
 ## Network Architecture
 ![network](./images/HKPS.png)
