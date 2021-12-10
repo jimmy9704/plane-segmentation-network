@@ -26,9 +26,7 @@ git clone https://github.com/jimmy9704/plane-segmentation-network.git
 cd plane-segmentation-network/
 ```
 
-## Usage
-you can use the notebook HKPS.ipynb to train and valid HKPS(Hybrid K-means Plane Segmentation Network)
- 
+
 ## Training
 Run the following command to start training
 ```
