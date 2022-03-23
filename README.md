@@ -65,6 +65,18 @@ Results are saved as ```.txt``` files in ```./result```. Each file contains a ``
 
 ## Citation
 If you think this paper is useful for your research, please cite our paper:
+```
+@article{lee2021clustering,
+  title={Clustering-Based Plane Segmentation Neural Network for Urban Scene Modeling},
+  author={Lee, Hongjae and Jung, Jiyoung},
+  journal={Sensors},
+  volume={21},
+  number={24},
+  pages={8382},
+  year={2021},
+  publisher={Multidisciplinary Digital Publishing Institute}
+}
+```
 
 ## Reference
 The PointNet code is from "https://github.com/charlesq34/pointnet" and "https://github.com/nikitakaraevv/pointnet"
