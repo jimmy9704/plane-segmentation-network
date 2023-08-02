@@ -121,7 +121,7 @@
 <html>
 <head>
 
-	<title>GeCoNeRF</title>
+	<title>Nickname</title>
 	<meta property="og:image" content="./resources/overview.png"/> <!-- Facebook automatically scrapes this. Go to https://developers.facebook.com/tools/debug/ if you update and want to force Facebook to rescrape. -->
 	<meta property="og:title" content="TitleTitle" />
 	<meta property="og:description" content="Paper description." />
@@ -183,12 +183,12 @@
 				<tr>
 					<td align=center width=120px>
 						<center>
-							<span style="font-size:24px"><a href='https://arxiv.org/abs/2301.10941'>[Paper]</a></span>
+							<span style="font-size:24px"><a href='https://arxiv.org/abs/topaper'>[Paper]</a></span>
 						</center>
 					</td>
 					<td align=center width=120px>
 						<center>
-							<span style="font-size:24px"><a href='https://github.com/KU-CVLAB/GeCoNeRF'>[GitHub]</a></span><br>
+							<span style="font-size:24px"><a href='https://github.com/togithub'>[GitHub]</a></span><br>
 						</center>
 					</td>
 				</tr>
@@ -204,7 +204,7 @@
 						<img class="round" style="width:120px" src="./resources/white.png"/>
 					</center>
 					</center>
-						Overview <br><br>
+						Intro <br><br>
 				</td>
 			</tr>
 		</table>
@@ -237,7 +237,7 @@
 		<tr>
 			<td align=center width=1000px>
 				<center>
-					<td><img class="round" style="width:1000px" src="./resources/overview.png"/></td>
+					<td><img class="round" style="width:300px" src="./resources/overview.png"/></td>
 				</center>
 			</td>
 		</tr>
@@ -246,11 +246,7 @@
 		<center>
 			<tr>
 				<td>
-					Given an image \(\mathcal{I}_\mathrm{i}\) and estimated depth map \(\mathcal{D}_\mathrm{j}\) of \(j\)-th unobserved viewpoint, 
-					we warp the image \(\mathcal{I}_\mathrm{i}\) to that novel viewpoint as \(I_{i \rightarrow j}\) by establishing 
-					geometric correspondence between two viewpoints.
-					Using the warped image as a pseudo ground truth, we cause rendered image of unseen viewpoint, 
-					\(\mathcal{I}_\mathrm{j}\), to be consistent in structure with warped image, with occlusions taken into consideration.
+					Overview
 				</td>
 			</tr>
 		</center>
@@ -261,7 +257,7 @@
 	<table align=center width=850px>
 		<center><h1>Qualitative Results</h1></center>
 
-		<center><h1><span style="font-size:25px">Comparison on NeRF-Synthetic Datatest</span></h1></center>
+		<center><h1><span style="font-size:25px">Comparison on XXX Datatest</span></h1></center>
 		<table align=center width=420px></table>
 		<tr>
 			<td align=center width=850px>
@@ -275,123 +271,14 @@
 			<center>
 				<tr>
 					<td>
-						Qualitative comparison results in NeRF-Synthetic dataset demonstrate 
-						that our model shows superior performance to baseline <a href="https://arxiv.org/abs/2103.13415">mip-NeRF</a></span>  and previous state-of-the-art model, 
-						<a href="https://arxiv.org/abs/2112.00724">RegNeRF</a></span>, in 3-view settings. 
-						We observe that our warping-based consistency enables GeCoNeRF to capture fine details that mip-NeRF and RegNeRF struggle to capture 
-						in same sparse view scenarios, as demonstrated with the \(mic\) scene. 
-						Our method also displays higher stability in rendering smooth surfaces and reducing artifacts in background in comparison to previous models,
-						as shown in the results of the \(materials\) scene. 
-						We argue that these results demonstrate how our method, through generation of warped pseudo ground truth patches, 
-						is able to give the model local, scene-specific regularization that aids recovery of fine details, 
-						which previous few-shot NeRF models with their global, generalized priors were unable to accomplish. 
+						Qualitative comparison results Discription
 					</td>
 				</tr>
 			</center>
 		</table>	
-		<center><h1><span style="font-size:25px">Comparison on LLFF Datatest</span></h1></center>
-		<table align=center width=420px></table>
-		<tr>
-			<td align=center width=850px>
-				<center>
-					<td><img class="round" style="width:850px" src="./resources/qual_comparison.png"/></td>
-				</center>
-			</td>
-		</tr>
-		</table>
-		<table align=center width=850px>
-			<center>
-				<tr> 
-					<td>
-						Qualitative comparison on LLFF dataset with baseline mip-NeRF shows that our model learns of coherent depth and geometry in extremely sparse 3-view setting.
-					</td>
-				</tr>
-			</center>
-		</table>
-		<!-- <center><h1><span style="font-size:25px">Qualitative Results on KITTI</span></h1></center>
-		<tr>
-			<td align=center width=850px>
-				<center>
-					<td><img class="round" style="width:850px" src="./resources/KITTI_additional.png"/></td>
-				</center>
-			</td>
-		</tr>
-		<center><h1><span style="font-size:25px">Qualitative Supervised Results on KITTI</span></h1></center>
-		<tr>
-			<td align=center width=850px>
-				<center>
-					<td><img class="round" style="width:850px" src="./resources/NYU_additional.png"/></td>
-				</center>
-			</td>
-		</tr> -->
-
+		
 	<!-- <hr>
-	<table align=center width=850px>
-		<center><h1>Quantative Results</h1></center>
-		<table align=center width=420px></table>
-		<tr>
-			<td align=center width=850px>
-				<center>
-					<td><img class="round" style="width:900px" src="./resources/comparison_qual.png"/></td>
-				</center>
-			</td>
-		</tr>
-		</table>
-		<table align=center width=850px>
-			<center>
-				<tr>
-					<td>
-						We quantify novel view synthesis quality using PSNR, 
-						Structural Similarity Index Measure (SSIM), LPIPS perceptual metric and "average" error metric 
-						introduced in <a href="https://arxiv.org/abs/2103.13415">mip-NeRF</a></span> to report 
-						the mean value of metrics for all scenes in each dataset. 
-						Quantitative results shows our model's competitive results in LLFF dataset, 
-						whose PSNR results show large increase in comparison to mip-NeRF baseline 
-						and competitive compared to RegNeRF. 
-						We see that our warping-based consistency modeling successfully prevents 
-						overfitting and artifacts, which allows our model to perform better quantitatively.
-					</td>
-				</tr>
-			</center>
-		</table>
-	</table> -->
-
-	<hr>
-	<table align=center width=850px>
-		<center><h1>Ablation Results</h1></center>
-		<table align=center width=420px></table>
-		<tr>
-			<td align=center width=850px>
-				<center>
-					<td><img class="round" style="width:850px" src="./resources/ablation.png"/></td>
-				</center>
-			</td>
-		</tr>
-		<tr>
-			<td align=center width=850px>
-				<center>
-					<img class="round" style="width:100px" src="./resources/white.png"/>
-				</center>
-				<center>
-					<td><img class="round" style="width:850px" src="./resources/ablation_table.png"/></td>
-				</center>
-			</td>
-		</tr>
-		</table>
-		<table align=center width=850px>
-			<center>
-				<tr>
-					<td>
-						We validate the design choices in our model by performing both an ablative study. 
-						We observe that without the consistency modeling loss, our model suffers a sharp decrease in reconstruction fidelity both quantitatively and qualitatively. 
-						We also validate the inclusion of our occlusion mask, progressive modeling method and disparity regularization loss.
-					</td>
-				</tr>
-			</center>
-		</table>
-	</table>
-
-
+	
 	<hr>
 
 	<table align=center width=450px>
