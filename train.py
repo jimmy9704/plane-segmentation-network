@@ -100,17 +100,6 @@ def train(model,dataset_,train_loss, epochs=5,make_label=True, save=True):
             print('[Epoch: %d, Batch: %4d / %4d], loss: %.3f' %
                         (epoch + 1, i + 1, batch_size, loss.item()), end='\r')
 
-        pointnet.eval()
-        inputs_val = inputs_[:20]
-        labels_val = labels_[:20]      
-        outputs, m3x3, m64x64 = pointnet(inputs_val.transpose(1,2))
-        outputs_ = F.softmax(outputs)
-        outputs_ = torch.argmax(outputs_,dim =1)
-
-        loss = pointnetloss(outputs, labels_val)
-        print("                                                   ", end='\r')
-        print("Epoch: %d, valid loss : %.3f" %(epoch + 1, loss.item()), end='\r')
-
         # save the model
         if save:
           torch.save(pointnet.state_dict(), "./model_save/save_"+str(epoch)+".pth")
